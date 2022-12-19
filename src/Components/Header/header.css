@@ -1,0 +1,38 @@
+.carousel-item{
+    height: 85vh;
+    overflow: hidden;
+}
+.slide-img-box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.slide-img-box img{
+    width: 100%;
+    height: auto;
+    filter: brightness(70%);
+}
+.slide-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'rubik', sans-serif;
+    text-align: center;
+}
+.slide-text-box h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'rubik', sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    color: white;  
+}
+.slide-text-box h6{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'rubik', sans-serif;
+    font-weight: 300;
+    color: white;
+}

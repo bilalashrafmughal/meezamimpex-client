@@ -1,0 +1,42 @@
+.nav-bg-color{
+    background-color: var(--main-redish);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    
+}
+.nav-fixed{
+    position: fixed;
+
+}
+.nav-center{
+    text-align: center;
+}
+.search-icon{
+    color: white;
+    font-size: 16px;
+}
+.cart-box{
+    position: relative;
+    transform: translate(-30px, 0);
+    
+}
+.cart-box i{
+    color: white;
+    font-size: 35px;
+    
+}
+.cart-box span{
+    position: absolute;
+    top: -40%;
+    right: -20%;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid var(--main-redish);
+    border-radius: 50%;
+    line-height: 25px;
+    margin: 0;
+    text-align: center;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    color: var(--main-redish);
+    font-weight: 700;
+}

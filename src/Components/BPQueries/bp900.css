@@ -1,0 +1,14 @@
+@media only screen and (max-width: 900px){
+    .slide-text-box h1{
+        font-size: 50px !important;
+    }
+    .header-slider-box{
+        height: 70vh !important;
+    }
+    .aim-box p{
+        font-size: 13px !important;
+    }
+    .slide-text-box h6{
+        font-size: 11px !important;
+    }
+}

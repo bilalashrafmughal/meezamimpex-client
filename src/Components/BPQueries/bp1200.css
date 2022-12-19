@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1200px){
+    .aim-box h5{
+        font-size: 15px !important;
+    }
+    .feature-list ul li{
+        font-size: 13px !important;
+    }
+    .feature-list ul img{
+        width: 70px !important;
+        padding: 10px !important;
+    }
+}

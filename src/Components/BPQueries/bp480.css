@@ -1,0 +1,38 @@
+@media only screen and (max-width: 480px){
+    .carousel-item{
+        height: 40vh !important;
+    }
+    .slide-text-box h1{
+        font-size: 18px !important;
+    }
+    .slide-text-box h6{
+        font-size: 8px;
+    }
+    .cat-images{
+        display: flex;
+        flex-direction: column;
+    }
+    .cat-images img{
+        width: 100%;
+        padding-bottom: 1px;
+    }
+    .hero-text h1{
+        font-size: 27px;
+    }
+    .cart-box{
+        text-align: center !important;
+    }
+    .cart-header-row p{
+        font-size: 8px !important;
+    }
+    .single-product-counter-panel button{
+        width: 15px !important;
+    }
+    .cart-counter input[type="number"]{
+        width: 20px !important;
+    }
+    .cart-item-row p{
+        margin: 0;
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,161 @@
+
+.section{
+  padding: 30px 0;
+}
+.aim-subheading{
+  margin: 15px 0;
+}
+.aim-subheading p{
+ margin: auto;
+ width: 80%;
+ font-size: 18px;
+ text-transform: uppercase;
+ font-family: 'rubik', sans-serif;
+ color: var(--text-lightgray);
+ text-align: center;
+}
+.aim-mainheading{
+  margin-bottom: 50px;
+}
+.aim-mainheading h3{
+  text-transform: uppercase;
+  color: var(--main-redish);
+  margin: auto;
+ width: 80%;
+ font-size: 30px;
+ font-family: 'rubik', sans-serif;
+ text-align: center;
+ font-weight: 300;
+ letter-spacing: 2px;
+ font-stretch: extra-expanded;
+}
+.aim-box{
+  text-align: center;
+}
+.icon-box{
+  margin-bottom: 13px;
+}
+.aim-box .icon-box img{
+  height: 60px;
+  width: 60px;
+}
+.aim-box h5{
+  text-transform: uppercase;
+  color: var(--text-darkgray);
+  margin-bottom: 15px;
+}
+.cat-images img{
+  width: 50%;
+}
+
+/*=============  contact-method======= */
+.contact-method{
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+}
+.cm-icon-box{
+  margin-right: 5px;
+}
+.cm-icon-box i{
+  font-size: 25px;
+  color: var(--text-lightgray);
+  padding: 10px;
+}
+.cm-text-box{
+  border-left: 4px solid var(--text-lightgray);
+  padding-left: 7px;
+}
+.cm-text-box p{
+  margin: 0;
+}
+
+/*=============  Features ======= */
+#feature-section{
+  background-color: var(--bg-gray);
+  padding: 15px 0
+}
+.feature-list ul{
+  list-style: none;
+  text-align: center;
+}
+.feature-list ul li{
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'rubik', sans-serif;
+  padding: 4%;
+  text-align: left;
+  cursor: pointer;
+  transition: ease all 0.5s;
+}
+.feature-list ul li:hover{
+  padding-left: 40px;
+}
+.feature-list ul img{
+  width: 80px;
+  height: auto;
+  padding: 20px;
+}
+.feature-box button{
+  padding: 4px 18px ;
+  background-color: var(--text-darkgray);
+  color: white;
+  border: none;
+  margin-top: 15px;
+  transition: ease all 0.5s;
+}
+.feature-box button:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  transform: scale(1.1);
+}
+
+
+
+.feature-img-box {
+  width: 90%;
+  height: auto;
+  margin-right: 15px;
+}
+.feature-img-box img{
+  width: 100%;
+  height:  auto;
+}
+
+.activeFeature {
+  background-color: white;
+  border-left: 5px solid var(--text-darkgray);
+}
+.feature-box{
+  margin: auto;
+}
+.feature-box h4{
+  text-transform: uppercase;
+  font-family: 'rubik', sans-serif;
+  font-weight: 500;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 1024px){
+    .aim-box h5{
+        font-size: 17px !important;
+    }
+    .cat-img-box{
+        height: 185px !important;
+    }
+    .cm-text-box p{
+        font-size: 12px  !important;
+    }
+    .ant-card{
+        width: 240px !important;
+    }
+}

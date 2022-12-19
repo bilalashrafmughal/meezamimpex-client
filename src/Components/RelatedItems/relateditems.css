@@ -1,0 +1,10 @@
+.message-heading h5{
+    color: var(--main-redish);
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 0;
+    margin-top: 20px;
+    text-align: center;
+}

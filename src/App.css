@@ -1,0 +1,64 @@
+:root{
+    --main-redish: rgb(214, 0, 52);
+    --logo-red: rgb(172, 2, 49);
+    --bg-gray:  rgb(244,244,244);
+    --text-lightgray:  rgb(82,101,118);
+    --text-darkgray: rgb(17,17,17);
+  }
+  
+
+  .btn{
+    color: white;
+    margin: 0;
+    /*  */
+    text-transform: uppercase;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 10px 7px;
+  }
+  .btn-filled{
+    background-color: var(--main-redish);
+    color: white;
+  }
+  .btn-filled:hover{
+    border: 1px solid var(--main-redish);
+    background-color: transparent;
+    color: var(--main-redish);
+
+  }
+  .btn-outlined{
+    border: 1px solid var(--main-redish);
+    background-color: transparent;
+    color: var(--main-redish);
+  }
+  .btn-outlined:hover{
+    background-color: var(--main-redish);
+    color: white;
+  }
+  .small-btn{
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    overflow: hidden;
+  }
+  .medium-btn{
+    width: 150px;
+    height: auto;
+    overflow: hidden;
+  }
+  .large-btn{
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+  }
+  .extra-large-btn{
+    width: 250px;
+    height: auto;
+    overflow: hidden;
+  }
+
+  textarea{
+    height: 140px;
+  }
+  .display-none{
+    display: none
+  }

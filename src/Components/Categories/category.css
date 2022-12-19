@@ -1,0 +1,49 @@
+.cat-img-box{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 220px;
+}
+.cat-img-box img{
+    filter: brightness(70%);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.cat-btn-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.cat-btn-box p{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+
+/* 
+========================
+      BUTTON ONE
+========================
+*/
+
+
+
+
+.owl-prev span{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--main-redish)
+
+}
+.owl-next span{
+    font-size: 40px;
+    font-weight: 900;
+    color: var(--main-redish)
+}
+
