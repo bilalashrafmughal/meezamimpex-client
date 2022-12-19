@@ -187,6 +187,7 @@ class ProductPanel extends Component {
             className="send"
             icon="fas fa-trash"
             text="Delete"
+            disabled
             onClick={async () => {
               const answer = window.confirm(
                 "Are You Sure To Delete This Product?"
@@ -227,6 +228,7 @@ class ProductPanel extends Component {
             className="send"
             icon="far fa-edit"
             text="Edit"
+            disabled
             onClick={async () => {
               const {
                 articalCode,
@@ -239,8 +241,6 @@ class ProductPanel extends Component {
                 title,
                 _id,
               } = cellData.data;
-
-              debugger;
               var imgUrl = document.getElementById(`prodimgid${_id}`).src;
               this.setState({
                 mode: "edit",

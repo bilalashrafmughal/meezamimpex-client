@@ -35,7 +35,7 @@ class CategoryBox extends Component {
 
     if (screenWidth > 768) {
       this.setState({
-        itemsInSlider: 4,
+        itemsInSlider: 3,
       });
     } else if (screenWidth < 768 && screenWidth > 480) {
       this.setState({

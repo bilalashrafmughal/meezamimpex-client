@@ -157,6 +157,7 @@ class CategoryPanel extends Component {
             className="send"
             icon="far fa-edit"
             text="Edit"
+            disabled
             onClick={async () => {
               const { heading, slogan, category, _id } = cellData.data;
               var imgUrl = document.getElementById(`catimgid${_id}`).src;
@@ -185,6 +186,7 @@ class CategoryPanel extends Component {
             className="send"
             icon="fas fa-trash"
             text="Delete"
+            disabled
             onClick={async () => {
               const answer = window.confirm(
                 "Are You Sure To Delete This Category"

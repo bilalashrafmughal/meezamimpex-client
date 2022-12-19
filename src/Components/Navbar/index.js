@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import "./navbar.css";
 import { connect } from "react-redux";
 import axios from "axios";
+import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
 
 class Navi extends Component {
   constructor(props) {
@@ -132,10 +133,21 @@ class Navi extends Component {
               </Nav.Link>
               {/* <Nav.Link href="/admin/categories" > Admin Panel</Nav.Link> */}
             </Nav>
-            <Nav>
+            <Nav style={{ alignItems: "center" }}>
+              <Link
+                className="navbar-dark navbar-nav nav-link"
+                style={{
+                  color: "rgba(255,255,255,.5)",
+                  textTransform: "capitalize",
+                  marginRight: "40px",
+                }}
+                to={`/admin/signin`}
+              >
+                Admin Panel
+              </Link>
               <NavLink to="/cart">
                 <div className="cart-box">
-                  <i className="fas fa-shopping-cart"></i>
+                  <ShoppingCartIcon htmlColor="rgba(255,255,255,.5)" />
                   {this.state.itemsInCart !== null && (
                     <span> {this.state.itemsInCart} </span>
                   )}

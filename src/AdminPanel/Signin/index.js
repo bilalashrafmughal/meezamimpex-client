@@ -108,6 +108,19 @@ function Signin() {
               value="login"
             />
           </form>
+          <div className="row aim-subheading">
+            <p> Email: bilalashraf6233@gmail.com </p>
+          </div>
+          <div className="row aim-subheading">
+            <p> Password: 12345678 </p>
+          </div>
+          <div className="row aim-subheading">
+            <p>
+              {" "}
+              Note: You can add products and categories in Admin panel but can
+              not edit or delete existing Data{" "}
+            </p>
+          </div>
           <div>
             <Alert
               variant="danger"

@@ -6,6 +6,7 @@ import {
   addQtyAction,
 } from "../ReducersActions/Actions";
 import { connect } from "react-redux";
+import DeleteIcon from "@material-ui/icons/Delete";
 
 class CartItem extends Component {
   constructor(props) {
@@ -124,8 +125,8 @@ class CartItem extends Component {
 
         <td>
           {" "}
-          <p>
-            <i onClick={this.deleteItem} className="fas fa-trash"></i>{" "}
+          <p onClick={this.deleteItem}>
+            <DeleteIcon htmlColor="rgb(214 0 52)" />
           </p>{" "}
         </td>
       </tr>
